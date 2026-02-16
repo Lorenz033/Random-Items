@@ -3,7 +3,7 @@ import time
 from ultralytics import YOLO
 
 # Load model
-model = YOLO(r"C:\Programming\MyProjects\RaspiYOLOv2\models\best.pt")
+model = YOLO(r"C:\Programming\MyProjects\RaspiYOLOv2\models\bestyolov8.pt")
 
 # Open webcam
 cap = cv2.VideoCapture(0)
